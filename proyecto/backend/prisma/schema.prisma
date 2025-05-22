@@ -1,0 +1,94 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+model Role {
+  id        Int      @id @default(autoincrement())
+  name String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+model Category {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  description String?
+  createdAt   DateTime  @default(now())
+  updatedAt DateTime @updatedAt
+}
+model Product {
+  id            Int       @id @default(autoincrement())
+  name          String
+  description   String?
+  unit          String    
+  location      String
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+model Supplier {
+  id          Int       @id @default(autoincrement())
+  name        String
+  contactInfo String?
+  email       String?
+  phone       String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+model ProductSupplier {
+  id          Int       @id @default(autoincrement())
+  name        String
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+model MovementType {
+  id          Int       @id @default(autoincrement())
+  name        String
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+model Movement {
+  id          Int          @id @default(autoincrement())
+  quantity    Int
+  reason      String?
+  createdAt   DateTime     @default(now())
+}
+model StockAlert {
+  id         Int      @id @default(autoincrement())
+  productId  Int
+  threshold  Int
+  active     Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+model AuditLog {
+  id        Int      @id @default(autoincrement())
+  action    String
+  userId    Int
+  details   String?
+  createdAt DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+
+
+
+
+
