@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.10">
+  <diagram name="Página-1" id="kitIBpyCCc5Bl1yEWSu7">
+    <mxGraphModel dx="430" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;HTTP&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="63" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="103" width="480" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Interfaz next.js&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;HTTP APIREST nest.js&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-6" value="create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-7" value="update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-8" value="FindOne" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-9" value="FindAll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-10" value="Delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-13" value="User" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-14" value="Role" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-15" value="Category" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-16" value="&lt;code data-end=&quot;1536&quot; data-start=&quot;1519&quot;&gt;Product&lt;/code&gt;&lt;div&gt;&lt;code data-end=&quot;1536&quot; data-start=&quot;1519&quot;&gt;Supplier&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-17" value="&lt;code data-end=&quot;1863&quot; data-start=&quot;1849&quot;&gt;Movement&lt;/code&gt;&lt;div&gt;&lt;code data-end=&quot;1863&quot; data-start=&quot;1849&quot;&gt;Type&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-18" value="Movement" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-19" value="StockAlert" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="344" y="340" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-20" value="AuditLog" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-21" value="Supplier" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-22" value="Product" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="344" y="260" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-27" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8dC3v0-n38P-3dDUws-29" value="Base De Datos(Postgres - Mongo)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="420" width="380" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
